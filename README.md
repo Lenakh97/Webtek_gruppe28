@@ -61,3 +61,5 @@ git push
 Det er for å faktisk sende endringene dine til github.
 
 Når du skriver git push kan det være du må skrive inn brukernavn og passord på github. Jeg pleier å bruke brukernavnet mitt, og som passord bruker jeg en github token. Den kan du lage ved å gå til profilbildet ditt oppe til høyre --> settings --> Developer settings --> Personal access tokens --> generate new token. Dette får du kun se en gang, så husk å lagre det en plass slik at du har det.
+
+Når du har gjort dette vil du se din branch på github. Du kan deretter gå inn på den og lage en Pull Request, slik at vi andre kan se over det som har blitt gjort før den blir lagt til i selve koden på 'main branch'.
