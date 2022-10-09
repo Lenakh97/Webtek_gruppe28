@@ -1,158 +1,394 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>P2 Requirements</title>
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, minimum-scale=1"
-		/>
-		<link rel="stylesheet" href="CSS/P1_Requirements.css" />
-	</head>
-	<body>
-		<h1>P2 Project Requirements</h1>
-		<h2>Lena, Signe, Kaja, Mathias & Ingvild</h2>
-		<p>October 07, 2022</p>
-		<div>
-			<h2>Administrative Details</h2>
-			<p>Client name: Fru Svendsen Kunst og Kulturkafé</p>
-			<p>webpage name: Fru Svendsen Kunst og Kulturkafé</p>
-			<p>Contact Person: Monika</p>
-		</div>
+  <head>
+    <title>P2 Requirements</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link rel="stylesheet" href="CSS/P1_Requirements.css" />
+  </head>
+  <body>
+    <h1>P2 Project Requirements</h1>
+    <h2>Lena, Signe, Kaja, Mathias & Ingvild</h2>
+    <p>October 07, 2022</p>
+    <div>
+      <h2>Administrative Details</h2>
+      <p>Client name: Fru Svendsen Kunst og Kulturkafé</p>
+      <p>webpage name: Fru Svendsen Kunst og Kulturkafé</p>
+      <p>Contact Person: Monika</p>
+    </div>
 
-        <div>
-            <h2>
-                Purpose, goals and audience
-            </h2>
-            <p>
-                The website's purpose is to reach out to possible new customers for the cafe, and also to give information 
-                to existing customers. In addition to information about the cafe we want to show menu, map with location and 
-                possibilities like events and renting the cafe. We also want to give the customers information about the history
-                behind the cafe as well as pictures and gallery. The audience is everyone interested in the cafe, but we assume 
-                the main audience will be younger people and tourists. This is based on the fact that more young people use websites.
-            </p>
-        </div>
-        <div>
-            <h2>Navigation Structure
-            </h2>
-            <p>
-                The navigation structure of the webpage of Fru Svendsen is shown in the figure below. It can be described
-                as a clique, which means you can access all pages from every page.
-                 This is possible because we will have a navigation bar that allows us to access them all.
+    <div>
+      <h2>Purpose, goals and audience</h2>
+      <p>
+        The website's purpose is to reach out to possible new customers for the
+        cafe, and also to give information to existing customers. In addition to
+        information about the cafe we want to show menu, map with location and
+        possibilities like events and renting the cafe. We also want to give the
+        customers information about the history behind the cafe as well as
+        pictures and gallery. The audience is everyone interested in the cafe,
+        but we assume the main audience will be younger people and tourists.
+        This is based on the fact that more young people use websites.
+      </p>
+    </div>
+    <div>
+      <h2>Navigation Structure</h2>
+      <p>
+        The navigation structure of the webpage of Fru Svendsen is shown in the
+        figure below. It can be described as a clique, which means you can
+        access all pages from every page. This is possible because we will have
+        a navigation bar that allows us to access them all.
+      </p>
+      <img src="Images/Struktur.jpg" alt="structure of web site" />
+    </div>
 
-                 </p>
-            </p>
-            <img src="Images/structure.png", alt="structure of web site"> 
+    <div>
+      <h2>Page Layout and Apperance</h2>
+      <p>
+        After speaking with the owner of Fru Svendsen, we have decided to create
+        an open, clean webpage with easy access to finding the most important
+        things the cafe offers. We have focused on displaying the menu as early
+        as possible, because most people that visits the page, would benefit
+        from finding out what kind of food and drinks the cafe offers. We have
+        also included the opening hours in the footer to make it easy to find
+        out when the cafe is open.
+      </p>
+      <p>
+        The specific styling for the website that will apply to all pages can be
+        found below:
+      </p>
+      <ul>
+        <li>
+          Font: "Lucette" for the main title (36pt) and navigation bar (18pt),
+          and “Inter” for the body (16pt)
+        </li>
+        <li>Color Scheme:</li>
+        <li>Text: Raisin Black #231F20</li>
+        <li>Background: Warm White #FFFDFB</li>
+        <li>Footer: Raisin Black #231F20</li>
+        <li>Grafic elements and user interface components: Ochre #CC7722</li>
+        <li>
+          Shadows: the information element on the slideshow will be displayed
+          with a shallow black shadow, to highlight the element. X: 6, Y:6,
+          spread: 6, Blur: 40. Color: Raisin Black #231F20 7%.
+        </li>
+        <li>Borders: solid raisin black 0.5</li>
+        <li>Body width: 1200px;</li>
+        <li>
+          Links: The logo on the top of the navbar will be a clickable link
+          which will bring users back to the home page.
+        </li>
+        <li>
+          The menu sections will have drop-down menus that can be clicked and
+          contain links to the respective pages. Navbar position and apperance:
+          The nabber will be included at the top of the page to make it
+          accessible. When hovering over the different tabs within the navbar,
+          the dash (with the color: #CC7722), will move to the corresponding nav
+          element.
+        </li>
+        <li>
+          Banner: We do not have a banner, but a slideshow on the "forside".
+        </li>
+        <li>
+          Slideshow: We have a slideshow on the "forside" since we have a lot of
+          pages on the website, and will give a introduction on what you can do
+          on the differnt webpages.
+        </li>
+        <li>
+          Footer: Opening hours, social media, cat illustration and a google map
+        </li>
+        <li>
+          Images: All of our images is in "blob" format, with the exeption of:
+          "bilder" and "kunstgalleri" where the images are squared.
+        </li>
+        <li>
+          Illustrations: We have some illustration of cats and coffe cups. The
+          cats will be a fun element who tell something about the webpages. E.g.
+          dancing cats on "Utleie", and a cat in a coffe cup on the "meny".
+        </li>
+        <li>
+          Logo: Our logo will be located in center over the navbar. They do
+          already have an logo, but it is old and outdated, so we will make a
+          new one. I think we will have one logo of the house with the name "Fru
+          Svendsen" under. And another with just the house.
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h2>Content</h2>
 
-        </div>
+      <p>There will be eigth separate pages as follows:</p>
 
-                </div>
-        <div>
-            <h2>Page Layout and Apperance
+      <ol>
+        <li>
+          Forside - forside.html
+          <br />
+          The "forside" is the first page that the user will see on the webiste.
+          The user gets an overview of the site with a slidshow (javascript)
+          that contain information about the most important webpages, such as
+          "meny", "arrangement" and "utleie". When the user continues to scroll
+          down he/she will see some text and images that wishes the user
+          welcome, and a button "les mer" where you can read more about their
+          history. On the bottom there is a footer.
+          <img src="Images/forside.jpg" alt="forside" />
+        </li>
+        <li>
+          Meny
+          <br />
+          At the "meny" page you can find out what the cafe is serving. We will
+          maybe make the meny into a exel-sheet so the owners of Fru Svendsen
+          can update the meny if needed. Here is also some picture of delicious
+          food.
+          <img src="Images/meny.jpg" alt="meny" />
+        </li>
 
-            </h2>
-            <p>
-                Dette tar Design studentene seg av
-                
-            </p>
-        </div>
-                </div>
-        <div>
-            <h2> Content
+        <li>
+          Arrangement
+          <br />
 
-            </h2>
-            <p>
-                
-                
-            </p>
-        </div>
-                </div>
-        <div>
-            <h2> Minimum Requirements
+          At "arrangement" you can see what is about to happend, and was has
+          happend at Fru Svendsen lately. The newest arrangment will be at the
+          top, while you can scroll down to see older happenings. A picture that
+          describes the arrengment will be at the left, and date and time is
+          over the picture to the lefe. Some text that describes the arrengment
+          will be at the right.
+          <img src="Images/arrangement.jpg" alt="meny" />
+        </li>
+        <li>
+          Utleie - utleie.html
+          <br />
+          This page is mainly a form for getting in contact with Fru Svendsen
+          about renting the café for private events. First there is a short
+          introduction about renting the venue. Then there is 4 single line text
+          fields for first name, last name, e-mail and date. there is also a
+          textarea where the user write a message about their wish to rent the
+          venue. The form also have a submit button.
 
-            </h2>
-            <p>
-                
-            </p>
-        </div>
-        <div>
-            <h2> Plan
+          <img src="Images/utleie.jpg" alt="utleie" />
+        </li>
+        <li>
+          Bilder - bilder.html
+          <br />
+          The "bilder"-page show pictures from the café, the food and the events
+          happening at fru Svendesen. The page display around 15 pictures. The
+          goal of the page is to give the user a good overview of the café when
+          deciding if they are going to visit Fru Svendsen or rent the venue.
+          <img src="Images/bilder.jpg" alt="bilder" />
+        </li>
+        <li>
+          Kunst- kunst.html
+          <br />
+          This page will showcase the different artist that are currently
+          displaying and selling their art at Fru Svendsen Kunst og Kulturkafé.
+          The user will be able to see what kind of artist they can expect when
+          going to the cafe, but due to copyright infringement laws, we can't
+          showcase the art.
+          <img src="Images/kunst.jpg" alt="kunst" />
+        </li>
 
-            </h2>
-            <p>
-                <table>
-  <tr>
-    <td>Filname</td>
-    <td>Description</td>
-    <td>In charge</td>
-    <td>Deadline</td>
+        <li>
+          Historie- historie.hmtl
+          <br />
+          The "historie" page will give a breif introduction to Fru Svendsen's
+          story, and give more information about what the cafe can offer its
+          customers. It will also showcase a few images inside the cafe, to show
+          potential customers what kind of atmosphere they can expect.
 
-  </tr>
-  <tr>
-    <td>forside.html</td>
-    <td>Description</td>
-    <td>In charge</td>
-    <td>Deadline</td>
-  </tr>
-  <tr>
-    <td>meny.html</td>
-    <td>Description</td>
-    <td>In charge</td>
-    <td>Deadline</td>
-  </tr>
-    <tr>
-    <td>arrangement.html</td>
-    <td>Description</td>
-    <td>In charge</td>
-    <td>Deadline</td>
-  </tr>
-    <tr>
-    <td>utleie.html</td>
-    <td>Description</td>
-    <td>In charge</td>
-    <td>Deadline</td>
-  </tr>
-    <tr>
-    <td>bilder.html</td>
-    <td>Description</td>
-    <td>In charge</td>
-    <td>Deadline</td>
-  </tr>
-    <tr>
-    <td>kontakt_oss.html</td>
-    <td>Description</td>
-    <td>In charge</td>
-    <td>Deadline</td>
-  </tr>
-    <tr>
-    <td>style.css</td>
-    <td>Contains the style of the whole webpage</td>
-    <td>In charge</td>
-    <td>Deadline</td>
-  </tr>
-      <tr>
-    <td>javascript</td>
-    <td>Description</td>
-    <td>In charge</td>
-    <td>Deadline</td>
-  </tr>
-      <tr>
-    <td>javascript</td>
-    <td>Description</td>
-    <td>In charge</td>
-    <td>Deadline</td>
-  </tr>
-      <tr>
-    <td>javascript</td>
-    <td>Description</td>
-    <td>In charge</td>
-    <td>Deadline</td>
-  </tr>
-</table>
+          <img src="Images/historie.jpg" alt="historie" />
+        </li>
 
-                
-            </p>
-        </div>
+        <li>
+          Kontakt oss
+          <br />
+          This page will include contact information (email, address, phone
+          number) and a google-map in the footer that you can click on. It will
+          also include a picture of the staff on the right. We have also the
+          opening hours in the footer now, but have to find a better system to
+          present the information.
+          <img src="Images/kontaktOss.jpg" alt="kontaktOss" />
+        </li>
+      </ol>
+    </div>
+    <h2>Minimum Requirements</h2>
+    <p>Kaja will be in charge of implementing:</p>
+    <ol>
+      <li>
+        A Javascript function that will convert an Excel (or another file
+        format) into html code, so that Fru Svendsen easily can update the menu
+        without having to deal a lot with html code, but only need to update the
+        excel file in the folder
+      </li>
+    </ol>
+    <p>Lena will be in charge of implementing:</p>
+    <ol>
+      <li>A Javascript function that send booking requests to the cafe.</li>
+      <li>
+        A Javascript function that gives you a popup with the photo you click on
+        in the gallery page.
+      </li>
+    </ol>
 
-	</body>
+    <p>Kaja and Lena will together be in charge of implementing:</p>
+    <ol>
+      <li>
+        A javascript fuction that will transition between different slides
+        (slides displaying different sites on the webpage that the customer want
+        higlighted) on the frontpage nicely.
+      </li>
+      <li>
+        A javascrip code implementing the google maps location of the cafe
+      </li>
+    </ol>
+
+    <p>
+      For now we have 5 javascript functions so one over the minimum
+      requirement, but we are not totally sure if everything here is needed to
+      be implemented with javascript yet.
+    </p>
+
+    <div>
+      <h2>Plan</h2>
+      <p>List of files and folders:</p>
+      <ul>
+        <li>
+          Sider/
+          <ul>
+            <li>forside.html</li>
+            <li>meny.html</li>
+            <li>arrangement.html</li>
+            <li>utleie.html</li>
+            <li>bilder.html</li>
+            <li>historie.html</li>
+            <li>kontaktOss.html</li>
+            <li>galleri.html</li>
+          </ul>
+        </li>
+        <li>
+          Bilder/
+          <ul>
+            <li>bilde1.jpg</li>
+            <li>bilde2.jpg</li>
+            <li>etc...</li>
+          </ul>
+        </li>
+        <li>
+          CSS/
+          <ul>
+            <li>style.css</li>
+          </ul>
+        </li>
+        <li>
+          Script/
+          <ul>
+            <li>slideshow.js</li>
+            <li>location.js</li>
+            <li>readTextFromFile.js</li>
+            <li>bookingRequest.js</li>
+            <li>popUpPicture.js</li>
+          </ul>
+        </li>
+      </ul>
+      <p></p>
+      <table>
+        <tr>
+          <td>Filename/task</td>
+          <td>Description</td>
+          <td>In charge</td>
+          <td>Deadline</td>
+        </tr>
+        <tr>
+          <td>standard oppsett for alle html filer</td>
+          <td>Navigeringsbar og footer som skal være på alle sider</td>
+          <td>Kaja og Lena</td>
+          <td>16.10.22</td>
+        </tr>
+
+        <tr>
+          <td>forside.html</td>
+          <td>A welcome page, which gives an introduction to Fru Svendsen</td>
+          <td>Mathias, (Signe og Ingvild)</td>
+          <td>15.11.22</td>
+        </tr>
+        <tr>
+          <td>meny.html</td>
+          <td>a page that showcases the menu at Fru Svendsen</td>
+          <td>Kaja</td>
+          <td>15.11.22</td>
+        </tr>
+        <tr>
+          <td>arrangement.html</td>
+          <td>Description</td>
+          <td>Ingvild</td>
+          <td>15.11.22</td>
+        </tr>
+        <tr>
+          <td>utleie.html</td>
+          <td>
+            Information about renting the cafe and form for sending email.
+          </td>
+          <td>Lena</td>
+          <td>15.11.22</td>
+        </tr>
+        <tr>
+          <td>bilder.html</td>
+          <td>Displaying some pictures from the cafe</td>
+          <td>Signe</td>
+          <td>15.11.22</td>
+        </tr>
+        <tr>
+          <td>historie.html</td>
+          <td>showing history about the cafe</td>
+          <td>Signe</td>
+          <td>15.11.22</td>
+        </tr>
+        <tr>
+          <td>kontakt_oss.html</td>
+          <td>Showing location and giving contact information</td>
+          <td>Ingvild</td>
+          <td>15.11.22</td>
+        </tr>
+        <tr>
+          <td>style.css</td>
+          <td>Contains the style of the whole webpage</td>
+          <td>Everyone</td>
+          <td>15.11.22</td>
+        </tr>
+        <tr>
+          <td>slideshow.js</td>
+          <td>Slideshow for frontpage</td>
+          <td>Mathias</td>
+          <td>15.11.22</td>
+        </tr>
+        <tr>
+          <td>location.js</td>
+          <td>Showing google maps location for the cafe</td>
+          <td>Mathias</td>
+          <td>15.11.22</td>
+        </tr>
+        <tr>
+          <td>readtextfromfile.js</td>
+          <td>Reads text from file and returns html</td>
+          <td>Kaja</td>
+          <td>15.11.22</td>
+        </tr>
+        <tr>
+          <td>bookingrequest.js</td>
+          <td>Sends email from form on booking request site</td>
+          <td>Lena</td>
+          <td>15.11.22</td>
+        </tr>
+        <tr>
+          <td>popUpPicture.js</td>
+          <td>
+            When you click on a picture in the gallery it will pop up and
+            display bigger
+          </td>
+          <td>Lena</td>
+          <td>15.11.22</td>
+        </tr>
+      </table>
+    </div>
+  </body>
 </html>
