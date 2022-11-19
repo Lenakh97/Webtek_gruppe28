@@ -1,335 +1,440 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>P3 Requirements</title>
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, minimum-scale=1"
-		/>
-		<link rel="stylesheet" href="CSS/P1_Requirements.css" />
-	</head>
-	<body>
-		<h1>P3 Project Requirements</h1>
-		<h2>Lena, Signe, Kaja, Mathias & Ingvild</h2>
-		<p>IT2805, October 07, 2022</p>
-		<div>
-			<h2>Administrative Details</h2>
-			<p>Client name: Fru Svendsen Kunst og Kulturkafé</p>
-			<p>Website name: Fru Svendsen Kunst og Kulturkafé</p>
-			<p>Contact Person: Monika, CEO</p>
-			<p>Link to our webpage: <a href="">Click here</a></p>
-			<!--link il nettsiden her-->
-		</div>
-		<div>
-			<h2>The changes we have made</h2>
-			<h3>General changes</h3>
-			<p>
-				We changed all the pictures from being "blobs" back to normal square
-				pictures, because the blob design isn't really optimized to Fru
-				Svendsens customers. One of their main customer segments of the Café is
-				pensioners, and showcasing bigger picture is considered a better design
-				practice when designing for elderly people. A more old style design also
-				fits the brand identity of Fru Svendsen better. Another reason we
-				changed the pictures is the picture quailty. The ones we recived from
-				our client was most likely taken with a phone which results in grainy
-				pictures, so we made some illustration instead. The illustrations has
-				been used troughout the website, and helps create a cohesive design. We
-				also created a new logo, this was done in dialog with the client, and is
-				just a more modern version of the old logo.
-				<!--Legg til en setning om padding som er blitt lagt til på samtlige sider, og hvor mye dette evt er-->
-			</p>
-			<h3>Changes to forside.html</h3>
-			<p>
-				In order to visually differentiate between the various sections with
-				elements and text, we changed the background color of the slideshow
-				(#F5F1EC) and on the third section on the page (#FAEDDD). In the
-				previous slideshow, we removed the box-shawdow. We also changed
-				thickness (18px) and color (#231F20) of the navigation arrows in the
-				slideshow, to make the navigation easier to use and see. We also added
-				more text to the page, filling out the page with more information. We
-				moved the first picture to the right.
-			</p>
-			<h3>Changes to meny.html</h3>
-			<p>
-				On the meny.html page we removed the blob pictures, and created some
-				illustrations that better fits the current design structure of the
-				entire webpage. We have also changed the menu text and therefore the
-				structure of the text, after receiving the menu from Fru Svendsen. The
-				border has been removed, and the text is structed around the
-				illustrations, either floating to the right or left of them. In addition
-				we also included some information about allergies at the bottom of the
-				page.
-			</p>
-			<h3>Changes to arrangment.html</h3>
-			<p>
-				We implemented a button that takes you to the Facebook-event. A header
-				was also added and what weekday the events are happening. We changed the
-				lines between the events to black for more visibility.
-			</p>
-			<h3>Changes to utleie.html:</h3>
-			<p>
-				On the utleie.html page we removed the picture and the cat illustration,
-				to highlight the form instead. The mail function is implemented using
-				html, so there is no javascript on the mail functionality.
-			</p>
-			<h3>Changes to bilder.html</h3>
-			<p>
-				On the bilder.html page, we added more photos, and changed the padding.
-				We chose to display 2 pictures on each row instead of 3 to make each
-				picture bigger and more visible. All the pictures are taken by Fru
-				Svendsen, and the sizing-pattern on the picture rows are; 3:2, 2:3, 3:2
-				and so on.
-			</p>
-			<h3>Changes to kunst.html</h3>
-			<p>
-				On the kunst.html page, we removed the cat figure, and instead of just
-				showcasing the name of the artist, we also added a small description and
-				an image of their art. The images we used are only placeholders, and are
-				from unsplash (we are allowed to use the images per their copyright
-				law).
-			</p>
-			<h3>Changes to historie.html</h3>
-			<p>
-				We choose to add a timeline, to visually structure the storytelling on
-				the page. This makes it easier for the reader to get a quick impression
-				of the history before they start reading. The pictures included have
-				width: 430px, same as the paragraph. We changed the pictures to better
-				fit the theme of the history page, the first picture is Svennsgården
-				from the 19th century, the other one shows the Café today. On smaller
-				devices, we remove the timeline and only include the text and images.
-			</p>
-			<h3>Changes to kontaktOss.html</h3>
-			<p>
-				Under the kontakOss.html, we added informational text to make the page
-				more friendly and fitting for the client. We removed the picture, and
-				added a cat illustration instead. We also added lines between the
-				e-post, telefon and adresse to make the page structure better and
-				improve the readability of the page. We also made the e-post, telefon
-				and adresse text into h3 elements to highlight them further.
-			</p>
-			<h3>Changes to footer</h3>
-			<p>
-				We removed the illustrations from the footer, and changed the color of
-				the icons from #FFFDFB to #CC7722. The google-map is now in a black and
-				white version and we placed it on the far right of the footer. In
-				addition we included contact ut in the footer, and changed the opening
-				hours text.
-			</p>
-			<h2>Changes to CSS styling</h2>
-			<p>
-				We also changed the font-family, H1 and H2 are now; Noe Display, and
-				paragraphs are; Questa sans. All of the H1 titles are moved to the left.
-				Background-color changed to #FFFDFB. Border on button changed from 0.7px
-				to 1px, and the top layer (black rectangle) is no longer transparent.
-			</p>
-			<h2>readtextfromfile.js</h2>
-			<p>
-				This was removed as a script file, but the functionality is included in
-				menu.html as a script. Not any changes done, other than more
-				spesifically reads from excel files and not a file in general. The
-				motives for having this script was originally so that the owners easily
-				could change the menu, I should have included the title of each menu in
-				the excel file and it should also have read this. but that can be an
-				update before we hand the website over to them.
-			</p>
-			<h2>location.js</h2>
-			<p>
-				The functionality of this is still the same as we planned. There is done
-				some changes in colors from what we originally was thinking. the map is
-				basically added as explained
-				<a
-					href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map#maps_add_map-javascript"
-				>
-					here</a
-				>
-			</p>
-		</div>
-		<div>
-			<h2>Updated Organizational Scheme</h2>
-			<p>
-				All of the following files are gathered inside a folder
-				'Nettside_webtek_28'. List of Files and Folders
-				<!--Passe på at dette er riktig ifht navn osv-->
-			</p>
-			<ul>
-				<li>
-					Bilder
-					<ul>
-						<li>
-							Bilder_side
-							<ul>
-								<li>310013312_783640699608485_2126259326737224505_n 3.png</li>
-								<li>311147334_501795248175981_8159304352717456786_n 3.png</li>
-								<li>...</li>
-								<li>IMG_3212.png</li>
-							</ul>
-						</li>
+  <head>
+    <title>P3 Requirements</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link rel="stylesheet" href="CSS/P1_Requirements.css" />
+  </head>
+  <body>
+    <h1>P3 Project Requirements</h1>
+    <h2>Lena, Signe, Kaja, Mathias & Ingvild</h2>
+    <p>IT2805, October 07, 2022</p>
+    <div>
+      <h2>Administrative Details</h2>
+      <p>Client name: Fru Svendsen Kunst og Kulturkafé</p>
+      <p>Website name: Fru Svendsen Kunst og Kulturkafé</p>
+      <p>Contact Person: Monika, CEO</p>
+      <p>
+        Link to our webpage:
+        <a
+          href="https://semikaja.github.io/Nettside_webtek_28/Sider/forside.html"
+          >Click here</a
+        >
+      </p>
+    </div>
+    <div>
+      <h2>The changes we have made</h2>
+      <h3>General changes</h3>
+      <p>
+        We changed all the pictures from being "blobs" back to normal square
+        pictures, because the blob design isn't really optimized to Fru
+        Svendsens customers. One of their main customer segments of the Café is
+        pensioners, and showcasing bigger picture is considered a better design
+        practice when designing for elderly people. A more old style design also
+        fits the brand identity of Fru Svendsen better. Another reason we
+        changed the pictures is the picture quailty. The ones we recived from
+        our client was most likely taken with a phone which results in grainy
+        pictures, so we made some illustration instead. The illustrations has
+        been used troughout the website, and helps create a cohesive design. We
+        also created a new logo, this was done in dialog with the client, and is
+        just a more modern version of the old logo. The original padding at the
+        pages has been changed, since it was set in pixels. We wanted to use
+        percentage to make sure the page was scalable. The original design was
+        also based on smaller width than a webpage actually has. Based on this
+        some pages have been made smaller to keep the original design. Other
+        than that most pages has a width of 60% of the screen. The front page
+        doesn't have this limit based on how it looks like in the design. The
+        menu and history page also deviates from the 60% width. This is decided
+        based on keeping the design scaling.
+      </p>
+      <h3>Changes to forside.html</h3>
+      <p>
+        In order to visually differentiate between the various sections with
+        elements and text, we changed the background color of the slideshow
+        (#F5F1EC) and on the third section on the page (#FAEDDD). In the
+        previous slideshow, we removed the box-shawdow. We also changed
+        thickness (18px) and color (#231F20) of the navigation arrows in the
+        slideshow, to make the navigation easier to use and see. We also added
+        more text to the page, filling out the page with more information. We
+        moved the first picture to the right.
+      </p>
+      <h3>Changes to meny.html</h3>
+      <p>
+        On the meny.html page we removed the blob pictures, and created some
+        illustrations that better fits the current design structure of the
+        entire webpage. We have also changed the menu text and therefore the
+        structure of the text, after receiving the menu from Fru Svendsen. The
+        border has been removed, and the text is structed around the
+        illustrations, either floating to the right or left of them. In addition
+        we also included some information about allergies at the bottom of the
+        page.
+      </p>
+      <h3>Changes to arrangment.html</h3>
+      <p>
+        We implemented a button that takes you to the Facebook-event. A header
+        was also added and what weekday the events are happening. We changed the
+        lines between the events to black for more visibility.
+      </p>
+      <h3>Changes to utleie.html:</h3>
+      <p>
+        On the utleie.html page we removed the picture and the cat illustration,
+        to highlight the form instead. The mail function is implemented using
+        html, so there is no javascript on the mail functionality.
+      </p>
+      <h3>Changes to bilder.html</h3>
+      <p>
+        On the bilder.html page, we added more photos, and changed the padding.
+        We chose to display 2 pictures on each row instead of 3 to make each
+        picture bigger and more visible. All the pictures are taken by Fru
+        Svendsen, and the sizing-pattern on the picture rows are; 3:2, 2:3, 3:2
+        and so on.
+      </p>
+      <h3>Changes to kunst.html</h3>
+      <p>
+        On the kunst.html page, we removed the cat figure, and instead of just
+        showcasing the name of the artist, we also added a small description and
+        an image of their art. The images we used are only placeholders, and are
+        from unsplash (we are allowed to use the images per their copyright
+        law).
+      </p>
+      <h3>Changes to historie.html</h3>
+      <p>
+        We choose to add a timeline, to visually structure the storytelling on
+        the page. This makes it easier for the reader to get a quick impression
+        of the history before they start reading. The pictures included have
+        width: 430px, same as the paragraph. We changed the pictures to better
+        fit the theme of the history page, the first picture is Svennsgården
+        from the 19th century, the other one shows the Café today. On smaller
+        devices, we remove the timeline and only include the text and images.
+      </p>
+      <h3>Changes to kontaktOss.html</h3>
+      <p>
+        Under the kontakOss.html, we added informational text to make the page
+        more friendly and fitting for the client. We removed the picture, and
+        added a cat illustration instead. We also added lines between the
+        e-post, telefon and adresse to make the page structure better and
+        improve the readability of the page. We also made the e-post, telefon
+        and adresse text into h3 elements to highlight them further.
+      </p>
+      <h3>Changes to footer</h3>
+      <p>
+        We removed the illustrations from the footer, and changed the color of
+        the icons from #FFFDFB to #CC7722. The google-map is now in a black and
+        white version and we placed it on the far right of the footer. In
+        addition we included contact ut in the footer, and changed the opening
+        hours text.
+      </p>
+      <h3>Changes to CSS styling</h3>
+      <p>
+        We also changed the font-family, H1 and H2 are now; Noe Display, and
+        paragraphs are; Questa sans. All of the H1 titles are moved to the left.
+        Background-color changed to #FFFDFB. Border on button changed from 0.7px
+        to 1px, and the top layer (black rectangle) is no longer transparent.
+      </p>
+      <h3>Changes to readtextfromfile.js</h3>
+      <p>
+        This was removed as a script file, but the functionality is included in
+        menu.html as a script. Not any changes done, other than more
+        spesifically reads from excel files and not a file in general. The
+        motives for having this script was originally so that the owners easily
+        could change the menu, I should have included the title of each menu in
+        the excel file and it should also have read this. but that can be an
+        update before we hand the website over to them.
+      </p>
+      <h3>Changes to location.js</h3>
+      <p>
+        The functionality of this is still the same as we planned. There is done
+        some changes in colors from what we originally was thinking. The map is
+        basically added as explained
+        <a
+          href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map#maps_add_map-javascript"
+        >
+          here</a
+        >
+      </p>
+      <h3>Changes to popUpPicture.js</h3>
+      <p>
+        There is no changes to the popUpPicture.js file. We wanted a
+        functionality where you can click a picture and it pops up. It is made
+        so that you can add a class to any picture on the website (and add the
+        script to the html file), and it will pop up when you click on it.
+      </p>
 
-						<li>Historie_side</li>
-						<li>Group 46.svg</li>
-						<li>image 34.png</li>
-						<li>IMG_3201.png</li>
-					</ul>
-				</li>
-				<li>
-					CSS
-					<ul>
-						<li>style.css</li>
-					</ul>
-				</li>
-				<li>
-					Icons
-					<ul>
-						<li>email.png</li>
-						<li>...</li>
-						<li>instagram.png</li>
-					</ul>
-				</li>
-				<li>
-					Script
-					<ul>
-						<li>bookingRequest.js</li>
-						<li>location.js</li>
-						<li>popUpPicture.js</li>
-						<li>readTextFromFile.js</li>
-						<li>slideshow.js</li>
-					</ul>
-				</li>
-				<li>
-					Sider
-					<ul>
-						<li>forside.html</li>
-						<li>galleri.html</li>
-						<li>historie</li>
-						<li>forside.html</li>
-						<li>meny.html</li>
-						<li>arrangement.html</li>
-						<li>utleie.html</li>
-						<li>bilder.html</li>
-						<li>historie.html</li>
-						<li>kontaktOss.html</li>
-						<li>galleri.html</li>
-					</ul>
-				</li>
-				<li>README.md</li>
-			</ul>
+      <h3>Changes to footer.js and navbar.js</h3>
+      <p>
+        Originally we didn't plan on making these files, but to prevent adding
+        the same code in all the diffent files we made a footer.js and navbar.js
+        file where the footer and navbar is stored and is put into the correct
+        place in all the html files.
+      </p>
+      <h3>Changes to getDate.js</h3>
+      <p>
+        Originally we didn't plan on making this file either, but to make sure
+        nobody entered a previous date on the 'utleie'-form we decided to make
+        this function to make sure the day today is the earliest date you could
+        pick.
+      </p>
+      <h3>Changes to bookingRequest.js</h3>
+      <p>
+        Originally we planned on making a javascript function for booking the
+        cafe, but we decided that is would be better to make it a form with a
+        mailto property so that the customer would send an email from their own
+        account. We don't need something more complex for this functionality.
+      </p>
+    </div>
+    <div>
+      <h2>Updated Organizational Scheme</h2>
+      <p>
+        All of the following files are gathered inside a folder
+        'Nettside_webtek_28'. List of Files and Folders
+        <!--Passe på at dette er riktig ifht navn osv-->
+      </p>
+      <ul>
+        <li>
+          Bilder
+          <ul>
+            <li>
+              arrangementer
+              <ul>
+                <li>kveldscafe.png</li>
+                <li>teselskap.png</li>
+                <li>trekkspill.png</li>
+              </ul>
+            </li>
+            <li>
+              bilder
+              <ul>
+                <li>310013312_783640699608485_2126259326737224505_n 3.png</li>
+                <li>311147334_501795248175981_8159304352717456786_n 3.png</li>
+                <li>...</li>
+                <li>IMG_3212.png</li>
+              </ul>
+            </li>
+            <li>
+              footer
+              <ul>
+                <li>facebook.png</li>
+                <li>insta.svg</li>
+                <li>location-pin.png</li>
+                <li>Trip_advisor.svg</li>
+              </ul>
+            </li>
 
-			<div>
-				<h2>Final work division</h2>
-				<table>
-					<tr>
-						<td>Filename/task</td>
-						<td>Description</td>
-						<td>In charge</td>
-					</tr>
-					<tr>
-						<td>standard oppsett for alle html filer</td>
-						<td>Navigeringsbar og footer som skal være på alle sider</td>
-						<td>Kaja og Lena</td>
-					</tr>
+            <li>
+              forside
+              <ul>
+                <li>cafe.jpg</li>
+                <li>frontpage_history.svg</li>
+                <li>...</li>
+                <li>right_arrow.svg</li>
+              </ul>
+            </li>
+            <li>
+              historie
+              <ul>
+                <li>cafeTable.png</li>
+                <li>timeline.svg</li>
+                <li>house.png</li>
+              </ul>
+            </li>
+            <li>
+              kontaktOss
+              <ul>
+                <li>kontakt-oss.svg</li>
+              </ul>
+            </li>
+            <li>
+              kunst
+              <ul>
+                <li>JosteinFlore.png</li>
+                <li>MonikaPapi.png</li>
+                <li>PerEgilFrant.png</li>
+                <li>SolveigHovdenakk.png</li>
+              </ul>
+            </li>
+            <li>
+              meny
+              <ul>
+                <li>bread_1.svg</li>
+                <li>bread_2.svg</li>
+                <li>coffee.svg</li>
+                <li>vegetables.svg</li>
+              </ul>
+            </li>
+            <li>logo_cafe.svg</li>
+          </ul>
+        </li>
+        <li>
+          CSS
+          <ul>
+            <li>style.css</li>
+          </ul>
+        </li>
+        <li>
+          Script
+          <ul>
+            <li>location.js</li>
+            <li>popUpPicture.js</li>
+            <li>readTextFromFile.js</li>
+            <li>slideshow.js</li>
+            <li>footer.js</li>
+            <li>navbar.js</li>
+            <li>getDate.js</li>
+          </ul>
+        </li>
+        <li>
+          Sider
+          <ul>
+            <li>forside.html</li>
+            <li>galleri.html</li>
+            <li>historie</li>
+            <li>meny.html</li>
+            <li>arrangement.html</li>
+            <li>utleie.html</li>
+            <li>bilder.html</li>
+            <li>kontaktOss.html</li>
+          </ul>
+        </li>
+        <li>README.md</li>
+      </ul>
 
-					<tr>
-						<td>forside.html</td>
-						<td>A welcome page, which gives an introduction to Fru Svendsen</td>
-						<td>Mathias</td>
-					</tr>
-					<tr>
-						<td>meny.html</td>
-						<td>a page that showcases the menu at Fru Svendsen</td>
-						<td>Kaja</td>
-					</tr>
-					<tr>
-						<td>arrangement.html</td>
-						<td>Description</td>
-						<td>Ingvild</td>
-					</tr>
-					<tr>
-						<td>utleie.html</td>
-						<td>
-							Information about renting the cafe and form for sending email.
-						</td>
-						<td>Lena</td>
-					</tr>
-					<tr>
-						<td>bilder.html</td>
-						<td>Displaying some pictures from the cafe</td>
-						<td>Signe</td>
-					</tr>
-					<tr>
-						<td>historie.html</td>
-						<td>showing history about the cafe</td>
-						<td>Signe</td>
-					</tr>
-					<tr>
-						<td>kontakt_oss.html</td>
-						<td>Showing location and giving contact information</td>
-						<td>Ingvild</td>
-					</tr>
-					<tr>
-						<td>style.css</td>
-						<td>Contains the style of the whole webpage</td>
-						<td>Everyone</td>
-					</tr>
-					<tr>
-						<td>slideshow.js</td>
-						<td>Slideshow for frontpage</td>
-						<td>Mathias & Kaja</td>
-					</tr>
-					<tr>
-						<td>location.js</td>
-						<td>Showing google maps location for the cafe</td>
-						<td>Kaja</td>
-					</tr>
-					<tr>
-						<td>readtextfromfile.js</td>
-						<td>Reads text from Excel file and returns html</td>
-						<td>Kaja</td>
-					</tr>
-					<tr>
-						<td>bookingrequest.js</td>
-						<td>Sends email from form on booking request site</td>
-						<td>Lena</td>
-					</tr>
-					<tr>
-						<td>popUpPicture.js</td>
-						<td>
-							When you click on a picture in the gallery it will pop up and
-							display bigger
-						</td>
-						<td>Lena</td>
-					</tr>
-					<tr>
-						<td>Design</td>
-						<td>Creating the design of the website</td>
-						<td>Signe, Mathias & Ingvild</td>
-					</tr>
-					<tr>
-						<td>Creating illustrations</td>
-						<td>
-							Created the cat illustration with adobe illustrator since we did
-							not have good quality photos.
-						</td>
-						<td>Signe</td>
-					</tr>
-					<tr>
-						<td>Testing</td>
-						<td>
-							Planning and conduct user testing oFinding relevent customers and
-							getting feedback from them
-						</td>
-						<td>Signe, Mathias & Ingvild</td>
-					</tr>
-					<tr>
-						<td>Code validation and finishing</td>
-						<td>
-							Validating the html, css and javascript codes, and connecting them
-							together
-						</td>
-						<td>Lena & Kaja</td>
-					</tr>
-				</table>
-			</div>
-		</div>
-	</body>
+      <div>
+        <h2>Final work division</h2>
+        <table>
+          <tr>
+            <td>Filename/task</td>
+            <td>Description</td>
+            <td>In charge</td>
+          </tr>
+          <tr>
+            <td>standard oppsett for alle html filer</td>
+            <td>Navigeringsbar og footer som skal være på alle sider</td>
+            <td>Kaja og Lena</td>
+          </tr>
+
+          <tr>
+            <td>forside.html</td>
+            <td>A welcome page, which gives an introduction to Fru Svendsen</td>
+            <td>Mathias</td>
+          </tr>
+          <tr>
+            <td>meny.html</td>
+            <td>a page that showcases the menu at Fru Svendsen</td>
+            <td>Kaja</td>
+          </tr>
+          <tr>
+            <td>arrangement.html</td>
+            <td>Description</td>
+            <td>Ingvild</td>
+          </tr>
+          <tr>
+            <td>utleie.html</td>
+            <td>
+              Information about renting the cafe and form for sending email.
+            </td>
+            <td>Lena</td>
+          </tr>
+          <tr>
+            <td>bilder.html</td>
+            <td>Displaying some pictures from the cafe</td>
+            <td>Signe</td>
+          </tr>
+          <tr>
+            <td>historie.html</td>
+            <td>showing history about the cafe</td>
+            <td>Signe</td>
+          </tr>
+          <tr>
+            <td>kontakt_oss.html</td>
+            <td>Showing location and giving contact information</td>
+            <td>Ingvild</td>
+          </tr>
+          <tr>
+            <td>style.css</td>
+            <td>Contains the style of the whole webpage</td>
+            <td>Everyone</td>
+          </tr>
+          <tr>
+            <td>slideshow.js</td>
+            <td>Slideshow for frontpage</td>
+            <td>Mathias & Kaja</td>
+          </tr>
+          <tr>
+            <td>location.js</td>
+            <td>Showing google maps location for the cafe</td>
+            <td>Kaja</td>
+          </tr>
+          <tr>
+            <td>readtextfromfile.js</td>
+            <td>Reads text from Excel file and returns html</td>
+            <td>Kaja</td>
+          </tr>
+          <tr>
+            <td>bookingrequest.js</td>
+            <td>Sends email from form on booking request site</td>
+            <td>Lena</td>
+          </tr>
+          <tr>
+            <td>popUpPicture.js</td>
+            <td>
+              When you click on a picture in the gallery it will pop up and
+              display bigger
+            </td>
+            <td>Lena</td>
+          </tr>
+          <tr>
+            <td>footer.js</td>
+            <td>Javascript file for adding the footer to all the pages.</td>
+            <td>Lena</td>
+          </tr>
+          <tr>
+            <td>navbar.js</td>
+            <td>Javascript file for adding the navbar to all the pages.</td>
+            <td>Lena</td>
+          </tr>
+          <tr>
+            <td>getDate.js</td>
+            <td>
+              Javascript file for getting the day today, to prevent previous
+              date input on the booking at 'utleie'.
+            </td>
+            <td>Lena</td>
+          </tr>
+          <tr>
+            <td>Design</td>
+            <td>Creating the design of the website</td>
+            <td>Signe, Mathias & Ingvild</td>
+          </tr>
+          <tr>
+            <td>Creating illustrations</td>
+            <td>
+              Created the cat illustration with adobe illustrator since we did
+              not have good quality photos.
+            </td>
+            <td>Signe</td>
+          </tr>
+          <tr>
+            <td>Testing</td>
+            <td>
+              Planning and conduct user testing oFinding relevent customers and
+              getting feedback from them
+            </td>
+            <td>Signe, Mathias & Ingvild</td>
+          </tr>
+          <tr>
+            <td>Code validation and finishing</td>
+            <td>
+              Validating the html, css and javascript codes, and connecting them
+              together
+            </td>
+            <td>Lena & Kaja</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
 </html>
